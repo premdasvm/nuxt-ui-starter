@@ -7,7 +7,7 @@ A starter template with Nuxt UI v3.
 The easiest way to use this repository is to [degit](https://github.com/Rich-Harris/degit) it:
 
 ```bash
-npx degit https://github.com/premdasvm/nuxt-ui-pro-starter.git <project-name>
+npx degit https://github.com/premdasvm/nuxt-ui-starter.git <project-name>
 ```
 
 ### Setup
