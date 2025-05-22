@@ -10,7 +10,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.44",
@@ -22,6 +23,7 @@
     "@nuxt/eslint": "^1.4.1",
     "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
+    "lint-staged": "^16.0.0",
     "typescript": "^5.8.3"
   },
   "pnpm": {
@@ -30,5 +32,8 @@
       "esbuild",
       "vue-demi"
     ]
+  },
+  "lint-staged": {
+    "*": "pnpm lint"
   }
 }
