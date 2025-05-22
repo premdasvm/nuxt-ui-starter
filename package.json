@@ -21,6 +21,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.2",
     "@nuxt/eslint": "^1.4.1",
+    "@vueuse/core": "^13.2.0",
+    "@vueuse/nuxt": "^13.2.0",
     "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
     "lint-staged": "^16.0.0",
