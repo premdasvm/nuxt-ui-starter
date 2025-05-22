@@ -10,5 +10,11 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
+
   compatibilityDate: "2025-01-15",
 });
